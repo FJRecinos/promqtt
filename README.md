@@ -1,24 +1,23 @@
 # Proyecto MQTT Broker con Publisher
 
-Este proyecto implementa un broker MQTT utilizando Node.js. Además, incluye un publisher MQTT que permite enviar mensajes a los clientes suscritos al broker.
+Este proyecto implementa un broker MQTT utilizando Node.js. Además, incluye un publisher MQTT con mosquito que permite enviar mensajes a los clientes suscritos al broker.
 
 ## Requisitos
 
-- Node.js (versión X.X.X o superior)
-- MQTT.js (versión X.X.X o superior)
+- Node.js (versión v21.6.2 o superior)
 
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
 
     ```bash
-    git clone https://github.com/tu-usuario/proyecto-mqtt-broker.git
+    git clone https://github.com/FJRecinos/promqtt.git
     ```
 
 2. Navega hasta el directorio del proyecto:
 
     ```bash
-    cd proyecto-mqtt-broker
+    cd promqtt
     ```
 
 3. Instala las dependencias del proyecto:
@@ -38,7 +37,7 @@ Este proyecto implementa un broker MQTT utilizando Node.js. Además, incluye un 
 2. Inicia el publisher MQTT:
 
     ```bash
-    node publisher.js
+    node temperatura.js
     ```
 
 3. El publisher enviará mensajes a los clientes suscritos al broker.
