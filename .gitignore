@@ -1,0 +1,25 @@
+# Dependencias
+/node_modules
+
+# Archivos generados por el entorno de desarrollo
+/.idea
+/.vscode
+/.env
+
+# Archivos de compilación
+/dist
+/build
+
+# Logs y archivos temporales
+/log
+/tmp
+
+# Archivos de configuración local
+/.env.local
+/.env.development.local
+/.env.test.local
+/.env.production.local
+
+# Otros archivos y directorios generados
+.DS_Store
+Thumbs.db
