@@ -1,8 +1,8 @@
 const mqtt = require('mqtt');
 
-const brokerUrl = 'mqtt://192.168.212.220:1883'; // Cambia la dirección IP al servidor MQTT
+const brokerUrl = 'mqtt://192.168.2.220:1883'; // Cambia la dirección IP al servidor MQTT
 const topic = 'gasco2'; // Tópico para enviar la temperatura al ESP32
-const message = 'gas'; // Indicador para enviar la lectura de temperatura
+const message = 'GAS'; // Indicador para enviar la lectura de temperatura
 
 const client = mqtt.connect(brokerUrl);
 
